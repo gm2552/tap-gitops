@@ -1,6 +1,10 @@
 tap_install:
   values:
 
+    tekton_pipelines:
+      feature_flags:
+        disable_affinity_assistant: "true"
+
     crossplane:
       orphan_resources: false
 
